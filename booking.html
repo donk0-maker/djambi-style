@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Онлайн записване – Djambi Style</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<a href="index.html" class="logo">Djambi <span>Style</span></a>
+    <nav>
+        <a href="services.html">Услуги</a>
+        <a href="gallery.html">Галерия</a>
+        <a href="booking.html">Записване</a>
+        <a href="contact.html">Контакти</a>
+        <a href="reviews.html" class="active">Ревюта</a>
+    </nav>
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+</header>
+
+
+
+
+<section class="booking">
+<h2>Онлайн записване</h2>
+<form class="booking-form">
+<label>Име и фамилия</label>
+<input type="text" required>
+
+
+<label>Телефон</label>
+<input type="tel" required>
+
+
+<label>Услуги</label>
+<label><input type="checkbox"> Мъжко подстригване</label>
+<label><input type="checkbox"> Оформяне на брада</label>
+<label><input type="checkbox"> Hot Towel Shave</label>
+<label><input type="checkbox"> Оформяне на вежди</label>
+
+
+<label>Дата</label>
+<input type="date" required>
+
+
+<label>Час</label>
+<input type="time" required>
+
+
+<button class="btn">Запази час</button>
+</form>
+</section>
+
+
+<footer>Djambi Style Barber © 2025</footer>
+<script src="menu.js"></script>
+</body>
+</html>
